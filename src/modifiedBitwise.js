@@ -1,3 +1,8 @@
+// This is not my code, I found this blog post while doing research on bitwise operators
+// for solving the nqueens problem after the sprint ended.
+// This was written by Joyce Liu
+// liujoycec.github.io
+
 modifiedCountNQueensSolutions = function(n) {
   // Symmetry will not work for N=1 and N=0 because
   // the one solution's mirror image is itself
@@ -60,4 +65,3 @@ modifiedCountNQueensSolutions = function(n) {
 };
 
 console.log(modifiedCountNQueensSolutions(6));
-//  liujoycec.github.io

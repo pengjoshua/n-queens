@@ -1,3 +1,8 @@
+// This is not my code, I found this blog post while doing research on bitwise operators
+// for solving the nqueens problem after the sprint ended.
+// This was written by Greg Trowbridge
+// http://gregtrowbridge.com/a-bitwise-solution-to-the-n-queens-problem-in-javascript/
+
 countNQueensSolutionsBitwise = function(n) {
   // Keeps track of the # of valid solutions
   var count = 0;
@@ -35,4 +40,3 @@ countNQueensSolutionsBitwise = function(n) {
 
 console.log(countNQueensSolutionsBitwise(6));
 
-// http://gregtrowbridge.com/a-bitwise-solution-to-the-n-queens-problem-in-javascript/
